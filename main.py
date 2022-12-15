@@ -3,8 +3,8 @@ import boto3
 import os
 
 client = boto3.client('s3',
-                      aws_access_key_id="AKIA3VWWH75JIKV4SDRZ",
-                      aws_secret_access_key="OkCn8I0TAmFMVN1yXJzqengbfp2SA5oABX933pvS"
+                      aws_access_key_id="YOUR_ACCESS_KEY_ID",
+                      aws_secret_access_key="YOUR_ACCESS_KEY"
                       )
 
 root_path = os.getcwd()
