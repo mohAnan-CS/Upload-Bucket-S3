@@ -14,7 +14,7 @@ file_name = "receipt.txt"
 file_path = os.path.join(root_path, file_name)
 print(f"file_path : {file_path}")
 
-bucket_name = "mohammadbucket"
+bucket_name = "YOUR_BUCKET_NAME"
 
 
 client.upload_file(file_path, bucket_name, file_name)
